@@ -1,2 +1,2 @@
-# static-brightpathstrongs
+# static-brightpathstrong
 brightpathstrong.org
