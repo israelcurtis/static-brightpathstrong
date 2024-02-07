@@ -1,0 +1,243 @@
+/* @override 
+	http://brightpathstrong.local/wp-content/themes/revolution-pro/blocks/blocks.css?ver=1.4.0
+	https://brightpathstrong.local/wp-content/themes/revolution-pro/blocks/blocks.css?*
+	https://brightpathstrong.com/wp-content/themes/revolution-pro/blocks/blocks.css?* 
+*/
+
+
+.home .site-inner {
+	padding-bottom: 0;
+}
+
+.wp-block-featured-action {
+	background: #FFA81C;
+	position: relative;
+	height: 90px;
+/*	padding: 100px 80px 100px 80px;*/
+	float: clear;
+}
+.wp-block-featured-action h3 {
+	width: 60%;
+	margin: 12px 0 0 80px;
+	float: left;
+}
+.wp-block-featured-action img {
+	/*position: absolute;
+	top: -20px;
+	left: 40px;
+	*/
+	height: 120px;
+	width: 120px;
+	float: left;
+	position: relative;
+	top: -15px;
+	left: 40px;
+	display: block;
+}
+
+.wp-block-featured-action .wp-block-button {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	transform: translateY(50%);
+}
+
+
+.wp-block-campaign {
+	padding: 16px;
+	background: #fff;
+	border: 1px solid #333;
+	box-shadow: 10px 10px 1px #ded7d3;
+	min-height: 360px;
+	margin-bottom: 30px;
+}
+.wp-block-campaign h3 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 2.5em;
+	line-height: 1.2em;
+}
+.wp-block-campaign img {
+	max-height: 187px;
+	object-fit: cover;
+}
+.wp-block-campaign .wp-block-button {
+	text-align: center;
+}
+
+#campaigns {
+	padding: 60px 0;
+	background: #FFA81C;
+	background-image: linear-gradient(#ffa300 70%, #fcfbf9 0%);
+	/*NEED THIS FOR SECTION BACKGROUNDS TO ACTUALLY GO FULL-WIDTH*/
+	width:  100vw;
+    max-width:  100vw;
+    margin-left:  calc(50% - 50vw);
+}
+
+body {
+     overflow-x:  hidden;
+}
+
+#sb_instagram {
+	background: url('/wp-content/themes/revolution-pro/images/ig-feed-bkgnd.png') right top no-repeat;
+	margin-bottom: -40px;
+	width: 1140px !important;
+}
+
+#sb_instagram a {
+	box-shadow: none;
+}
+#sb_instagram .sbi_type_image {
+	background: #fff;
+	border: 1px solid #333;
+	
+}
+#sb_instagram #sbi_images {	
+	margin-left: 18px;
+	margin-bottom: 100px;
+}
+
+#sbi_images .sbi_info {
+	padding: 14px 5px;
+}
+
+#sb_instagram.sbi_col_3 #sbi_images .sbi_item {
+	width: 30%;
+	margin-right: 36px !important;
+}
+
+#hero {
+	position: relative;
+}
+#hero .wp-block-image {
+	position: relative;
+	margin-left: 0;
+}
+#hero .wp-block-buttons {
+	position: relative;
+}
+#hero-card {
+	border: 1px solid #333;
+	background: #fff;
+	padding: 30px;
+	width: 380px;
+	height: 330px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	box-shadow: 12px 12px 1px #ded7d3;
+}
+#hero-card h1 {
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 1.1em;
+}
+
+
+.wp-block-media-text .wp-block-media-text__media {
+	width: 560px;
+}
+.wp-block-media-text .wp-block-media-text__content {
+	width: 380px;
+	margin-left: 100px;
+	padding: 0 4%;
+}
+.wp-block-media-text .wp-block-media-text__content h3 {
+	margin-top: .6em;
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 420px) {
+	
+	#hero-card h1 {
+		font-size: 30px;
+	}
+	#hero-card {
+	border: 1px solid #333;
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	right: 0px;
+	top: 40px;
+	box-shadow: 12px 12px 1px #ded7d3;
+	}
+	.wp-block-campaign {
+	padding: 16px;
+	background: #fff;
+	border: 1px solid #333;
+	box-shadow: 10px 10px 1px #ded7d3;
+	min-height: 300px;
+	margin-bottom: 30px;
+	}
+	.wp-block-campaign h3 {
+		font-size: 18px;
+	}
+	#campaigns {
+	padding: 40px 0;
+	background: #ffa300;
+	background-image: none;
+	}
+	.wp-block-featured-action {
+		background: #ffa300;
+		position: relative;
+		height: 300px;
+	/*	padding: 100px 80px 100px 80px;*/
+		float: clear;
+	}
+	.wp-block-featured-action h3 {
+		width: 90%;
+		margin: 24px 12px 12px 12px;
+		font-size: 24px;
+	}
+	.wp-block-featured-action img {
+		height: 60px;
+		width: 60px;
+		float: left;
+		position: relative;
+		top: 15px;
+		left: 15px;
+		display: block;
+	}
+	
+	.wp-block-featured-action .wp-block-button {
+		display: block;
+		float: left;
+		margin: 15px 0 0 15px;
+	}
+	
+	#sb_instagram #sbi_images {	
+		margin-left: 0;
+	}
+
+	#sb_instagram.sbi_col_3 #sbi_images .sbi_item {
+		width: 100%;
+	}
+	
+	.wp-block-media-text .wp-block-media-text__media {
+		width: 100%;
+	}
+	.wp-block-media-text .wp-block-media-text__content {
+		width: 100%;
+		margin-left: 0;
+		padding: 0 4%;
+	}
+	
+	.wp-block-media-text .wp-block-media-text__content p {
+		font-size: 14px;
+		text-align: center;
+	}
+	.wp-block-media-text .wp-block-media-text__content h3 {
+		margin-top: 0;
+		font-size: 1.4em;
+		text-align: center;
+	}
+	.wp-block-media-text .wp-block-buttons {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+}
