@@ -1,0 +1,2 @@
+# static-brightpathstrongs
+brightpathstrong.org
